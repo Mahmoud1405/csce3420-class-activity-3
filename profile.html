@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student technology profile created with semantic and accessible HTML.">
+    <title>Mahmoud's Technology Profile | CSCE 3420</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mahmoud's Technology Profile</h1>
+
+        <p>
+            A profile about my technology interests, current skills,
+            and future goals.
+        </p>
+    </header>
+
+    <nav aria-label="Profile navigation">
+        <a href="#skills">Technical Skills</a>
+        <a href="#goals">Goals</a>
+        <a href="index.html">Main Project</a>
+        <a href="https://www.unt.edu/">UNT</a>
+    </nav>
+
+    <main>
+
+        <article>
+
+            <h2>About Me</h2>
+
+            <img
+                src="images/campus.jpg"
+                alt="University campus representing my technology education"
+                width="450">
+
+            <p>
+                My name is Mahmoud El-Hussain, and I am interested in
+                technology and learning how different computer systems
+                work together.
+            </p>
+
+            <p>
+                Internet Programming is helping me understand how webpages
+                are structured, interpreted by browsers, and made accessible
+                to different users.
+            </p>
+
+            <p>
+                I enjoy developing technical skills that can be applied
+                to real-world environments and problem solving.
+            </p>
+
+        </article>
+
+        <section id="skills">
+
+            <h2>Technical Skills</h2>
+
+            <ul>
+                <li>HTML and web development</li>
+                <li>Git and GitHub</li>
+                <li>Computer networking</li>
+                <li>Linux and command-line tools</li>
+            </ul>
+
+            <table>
+
+                <caption>Current Technical Focus</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Area</th>
+                        <th scope="col">Experience</th>
+                        <th scope="col">Goal</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Developing</td>
+                        <td>Build accessible webpages</td>
+                    </tr>
+
+                    <tr>
+                        <td>Git</td>
+                        <td>Developing</td>
+                        <td>Manage project versions</td>
+                    </tr>
+
+                    <tr>
+                        <td>Networking</td>
+                        <td>Intermediate</td>
+                        <td>Improve troubleshooting skills</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section id="goals">
+
+            <h2>Current Goals</h2>
+
+            <ol>
+                <li>Improve my web development skills.</li>
+                <li>Continue learning networking.</li>
+                <li>Apply technical knowledge to real projects.</li>
+            </ol>
+
+        </section>
+
+        <section>
+
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="profile-name">Name:</label>
+                    <input type="text" id="profile-name" name="profile-name">
+                </p>
+
+                <p>
+                    <label for="profile-email">Email:</label>
+                    <input type="email" id="profile-email" name="profile-email">
+                </p>
+
+                <p>
+                    <label for="interest">Main Interest:</label>
+
+                    <select id="interest" name="interest">
+                        <option value="web">Web Development</option>
+                        <option value="networking">Networking</option>
+                        <option value="security">Cybersecurity</option>
+                    </select>
+                </p>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Student technology profile created for CSCE 3420.</p>
+    </footer>
+
+</body>
+</html>
